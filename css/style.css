@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    /* outline: 1px solid #f00 !important; */
+      
+}
+.container1{
+    width: 100%;
+}
+.container #navbarSupportedContent .nav-item{
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 33px;
+    text-transform: uppercase;
+}
+.container #navbarSupportedContent .nav-item:hover a{
+color: black;
+}
+.container #navbarSupportedContent .nav-item a{
+    color: white;
+}
+.container #navbarSupportedContent .menu-button{
+    margin-top: 5px;
+}
+.container #navbarSupportedContent .nav-item button span{
+    color: black;
+}
+.container #navbarSupportedContent .nav-item button:hover span{
+    color: white;
+}
+#Home{
+    height: calc(100vh + 20%);
+    background: linear-gradient(rgba(0, 0, 0, 0.74) 0% 100%), url(../images/agency-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 120px;
+    color: white;
+    margin-bottom: 25px;
+}
+#Home .header{
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+#Home .header .header-content{
+    margin-top: 200px;
+}
+#Home .header .header-content span{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 52px;
+    color: white;
+}
+#Home .header .header-content .two-buttons{
+    margin-top: 25px;
+}
+#Home .header .header-content .two-buttons .btn-primary:hover{
+    background-color: white;
+    color: black;
+}
+#Home .scroll-down{
+    align-self: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+#Home .scroll-down button{
+    border-radius: 30%;
+    border-color: white;
+    padding: 0 10px 35px 10px;
+    background: transparent;
+    /* position: relative; */
+}
+#Home .scroll-down button i{
+    color: white;
+    background-color: white;
+    border-radius: 50%;
+    animation: hamada alternate 1s 1s;
+    animation-iteration-count: infinite;
+    transform: translateY(20px);
+    transition: all 2s 1s;
+}
+@keyframes hamada{
+    from{
+        background-color: white;
+        color: white;
+    }
+    to{
+        background: transparent;
+        color: transparent;
+    }
+}
+#Home .scroll-down button i{
+
+}
+/* .our-work .cards{
+    margin-bottom: 80px;
+} */
+.our-work .cards .card{
+    border-style: none;
+}
+.our-work .cards .card .card-body{
+    position: relative;
+}
+.our-work .cards .card .card-body i{
+    font-size: 25px;
+    position: absolute;
+    top: 20px;
+    left: -20px;
+}
+/* .our-work .content h2{
+    margin: 50px;
+}
+.our-work .content p{
+    margin: 50px;
+} */
+.carousel-section a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+}
+.carousel-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50px;
+}
+.carousel-cards-image{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.carousel-cards-image img{
+    width: 100%;
+}
+.carousel-cards-small{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.524);
+    width: 100%;
+    height: 100%;
+    transition: all 1s 0s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-cards-image-container:hover .carousel-cards-small{
+    opacity: 1;
+}
+.carousel-indicators [data-bs-target]{
+    width: 10px;
+    height:10px;
+    border-radius: 50%;
+}
+.bg-custom{
+    background-color: #1B1B1B;
+}
+.comment-section-carousel #carouselExample2 .carousel-inner .carousel-item .row .col-md-12 .card .card-body{
+    text-align: center;
+}
+.comment-section-carousel #carouselExample2 .carousel-inner .carousel-item .row .col-md-12 .card{
+    background-color: #1B1B1B;
+}
+.comment-section-carousel #carouselExample2 .carousel-inner .carousel-item .row .col-md-12 .card .card-body i{
+    color: #0461D5;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    /* padding: 20px; */
+}
+.comment-section-carousel #carouselExample2 .carousel-inner .carousel-item .row .col-md-12 .card .card-body p{
+    color: white;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 50px;
+    /* padding: 20px; */
+}
+.comment-section-carousel #carouselExample2 .carousel-inner .carousel-item .row .col-md-12 .card .card-body h5{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    /* padding: 20px; */
+}
+.comment-section-carousel #carouselExample2 .carousel-inner .carousel-item .row .col-md-12 .card .card-body span{
+    color: white;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 50px;
+    /* padding: 20px; */
+}
+.latest-news-section #carouselExample3 .carousel-inner .carousel-item .row .col-md-4 .card .card-body{
+    border-style: none;
+}
+.latest-news-section #carouselExample3 .carousel-inner .carousel-item .row .col-md-4 .card{
+    border-style: none;
+}
+.ads-section .logos .row .col-md-2 .logo a:hover{
+    
+}
+.blue-section .btn{
+    color: white;
+    margin: 20px 0;
+}
+.blue-section .btn:hover{
+    color: black;
+}
+.blue-section h2{
+    margin: 20px 0;
+}
+.blue-section span{
+    margin: 20px 0;
+}
+.bg-custom1{
+    background-color: #1B1B1B;
+}
+.dark-color-section h3{
+    color: white;
+}
+.dark-color-section p{
+    color: #797979;
+    line-height: 38px;
+
+}
+.dark-color-section a{
+    text-decoration: none;
+    color: #797979;
+    transition: all 0.1s 0.2s;
+    transition-timing-function: ease-in;
+    width: 10%;
+    padding: 7px 0;
+}
+.dark-color-section a:hover {
+    color: white;
+}
+
+.dark-color-section span{
+    color: #797979;
+    padding: 7px 0;
+
+}
+.dark-color-section .contact-details .must-do{
+    
+}
+.dark-color-section .contact-details .must-do i{
+    color: #797979;
+    padding: 7px;
+}
+.dark-color-section .contact-details .must-do .space{
+    float: left;
+}
+.bg-custom2{
+    background-color: #151515;
+}
+.bg-custom2 .col-md-6 .text p{
+    color: #777777;
+}
+.bg-custom2 .col-md-6 .icons i{
+    color: #797979;
+    padding: 10px;
+}
